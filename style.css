@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* style for the container */
+.container {
+    max-width: 1440px;
+    min-height: 100svh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('bg-pattern-top.svg');
+    background-image: url('bg-pattern-bottom.svg');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style for the card */
+.card {
+    width: 95%;
+    max-width: 350px;
+    height: auto;
+}
+
+/* style for the images section */
+.card {
+    width: 100%;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.img-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 5em;
+    border-radius: 1em 1em 0 0;
+}
+
+.img-container .img-one {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em 1em 0 0;
+}
+
+.profile-img {
+    width: 100%;
+    position: absolute;
+    top: 65%;
+}
+
+.img-two {
+    display: block;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin: 0 auto;
+}
+
+/* style for the description texts */
+.desc-texts {
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    text-align: center;
+    margin-bottom: 1.8em;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+.desc-texts h3 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin-bottom: .6em;
+}
+
+.desc-texts h3 span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-left: .3em;
+}
+
+.desc-texts p {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 1.3em;
+}
+
+/* style for the foot-texts */
+.foot-texts {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 1.2em;
+}
+
+.foot-texts div {
+    text-align: center;
+}
+
+.foot-texts div h3 {
+    margin-bottom: .2em;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.foot-texts div p {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
